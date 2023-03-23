@@ -8,13 +8,13 @@ if bmi <= 30.0 return "Overweight"
 
 if bmi > 30 return "Obese"
 
-```
+```{r test-python, engine='python'}
 # Given Code
 def bmi(weight, height):
     #your code here
 ```
 
-```
+```{r test-python, engine='python'}
 # My Solution
 def bmi(weight, height):
     #your code here 
