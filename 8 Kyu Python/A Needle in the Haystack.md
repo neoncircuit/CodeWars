@@ -8,7 +8,7 @@ After your function finds the needle it should return a message (as a string) th
 
 "found the needle at position " plus the index it found the needle, so:
 
-Example(Input --> Output)
+## Example(Input --> Output)
 
 ```
 ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
