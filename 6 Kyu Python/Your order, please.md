@@ -24,5 +24,41 @@ def order(sentence):
 # My Solution
 
 ```{python}
+def order(sentence):
+  # split the input string into a list of words
+    words = sentence.split()
+    
+    # create a dictionary to store the order of each word
+    order = {}
+    for word in words:
+        for char in word:
+            if char.isdigit():
+                order[word] = int(char)
+    
+    # sort the words based on their order
+    sorted_words = sorted(words, key=lambda x: order[x])
+    
+    # join the sorted words back into a string
+    result = ' '.join(sorted_words)
+    
+    return result
+```
 
+
+# My Solution 2
+
+```{python}
+def order(sentence):
+    if not sentence:
+        return ""
+    result = []    #the list that will eventually become our setence
+      
+    split_up = sentence.split() #the original sentence turned into a list
+  
+    for i in range(1, 10):
+        for item in split_up:
+            if str(i) in item:
+                 result.append(item)    #adds them in numerical order since it cycles through i first
+  
+    return " ".join(result)
 ```
