@@ -8,13 +8,13 @@ if bmi <= 30.0 return "Overweight"
 
 if bmi > 30 return "Obese"
 
-'''
+```
 # Given Code
 def bmi(weight, height):
     #your code here
-'''
+```
 
-'''
+```
 # My Solution
 def bmi(weight, height):
     #your code here 
@@ -29,4 +29,4 @@ def bmi(weight, height):
     elif BMI > 30.0:    
         health = "Obese"        
     return health
-'''
+```
