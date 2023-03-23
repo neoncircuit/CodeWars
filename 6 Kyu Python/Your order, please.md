@@ -51,7 +51,7 @@ def order(sentence):
 def order(sentence):
     if not sentence:
         return ""
-    result = []    # The list that will eventually become our setence
+    result = []    # The list that will eventually become our sentence
       
     split_up = sentence.split() # The original sentence turned into a list
   
