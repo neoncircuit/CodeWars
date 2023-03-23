@@ -25,20 +25,20 @@ def order(sentence):
 
 ```{python}
 def order(sentence):
-  # split the input string into a list of words
+  # Split the input string into a list of words
     words = sentence.split()
     
-    # create a dictionary to store the order of each word
+    # Create a dictionary to store the order of each word
     order = {}
     for word in words:
         for char in word:
             if char.isdigit():
                 order[word] = int(char)
     
-    # sort the words based on their order
+    # Sort the words based on their order
     sorted_words = sorted(words, key=lambda x: order[x])
     
-    # join the sorted words back into a string
+    # Join the sorted words back into a string
     result = ' '.join(sorted_words)
     
     return result
@@ -51,14 +51,14 @@ def order(sentence):
 def order(sentence):
     if not sentence:
         return ""
-    result = []    #the list that will eventually become our setence
+    result = []    # The list that will eventually become our setence
       
-    split_up = sentence.split() #the original sentence turned into a list
+    split_up = sentence.split() # The original sentence turned into a list
   
     for i in range(1, 10):
         for item in split_up:
             if str(i) in item:
-                 result.append(item)    #adds them in numerical order since it cycles through i first
+                 result.append(item)    # Adds them in numerical order since it cycles through i first
   
     return " ".join(result)
 ```
