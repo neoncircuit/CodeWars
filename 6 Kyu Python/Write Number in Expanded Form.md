@@ -34,17 +34,3 @@ def expanded_form(num):
     return " + ".join(map(str, res))
 ```
 
-# My Solution 2
-
-```{python}
-def expanded_form(num):
-    mult = 10
-    res = []
-    while num > 1:
-        rem = num % mult
-        if rem > 0:
-            res.insert(0, rem) # Add as index 0 of res
-        num -= rem
-        mult *= 10
-    return " + ".join(map(str, res))
-```
