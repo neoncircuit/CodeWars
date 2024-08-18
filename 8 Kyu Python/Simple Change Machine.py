@@ -1,31 +1,8 @@
-def change_me(input_money):
-    # your code here
-    accepted = {
-        "£5": 500,
-        "£2": 200,
-        "£1": 100,
-        "50p": 50,
-        "20p": 20
-    }
-
-    change_denominations = {
-        "20p": 20,
-        "10p": 10
-    }
-
-    if input_money not in accepted:
-        return input_money  
-
-    value = accepted[input_money]
-
-    change = []
-    
-    for denomination, denom_value in change_denominations.items():
-        while value >= denom_value:
-            change.append(denomination)
-            value -= denom_value
-
-    if input_money == "20p":
-        change = ["10p", "10p"]
-    
-    return " ".join(change)
+def change_me(money): 
+    match money:
+        case "£5" : return " ".join(["20p"] * 25)
+        case "£2" : return " ".join(["20p"] * 10)
+        case "£1" : return " ".join(["20p"] * 5)
+        case "50p": return "20p 20p 10p"
+        case "20p": return "10p 10p"
+        case   _  : return money
