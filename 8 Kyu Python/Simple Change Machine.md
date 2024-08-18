@@ -28,3 +28,45 @@ def change_me(money):
         case "20p": return "10p 10p"
         case   _  : return money
 ```
+
+# My Solution 2
+```{python}
+def change_me(input_money):
+    # Define accepted denominations and their values in pence
+    accepted = {
+        "£5": 500,
+        "£2": 200,
+        "£1": 100,
+        "50p": 50,
+        "20p": 20
+    }
+
+    # Define the output denominations in pence
+    change_denominations = {
+        "20p": 20,
+        "10p": 10
+    }
+
+    # Check if the input money is accepted
+    if input_money not in accepted:
+        return input_money  # Return unprocessed if not accepted
+
+    # Get the value in pence
+    value = accepted[input_money]
+
+    # Generate the change
+    change = []
+    
+    # Always prefer 20p coins, then use 10p coins
+    for denomination, denom_value in change_denominations.items():
+        while value >= denom_value:
+            change.append(denomination)
+            value -= denom_value
+
+    # If the input was exactly a 20p coin, avoid returning the same
+    if input_money == "20p":
+        change = ["10p", "10p"]
+    
+    # Join the change list into a string
+    return " ".join(change)
+```
