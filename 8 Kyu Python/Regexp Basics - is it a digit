@@ -4,6 +4,8 @@
 
 Implement String#digit? (in Java StringUtils.isDigit(String)), which should return true if given object is a digit (0-9), false otherwise.
 
+
+
 ## Given Code
 ```python
 def is_digit(n):
@@ -20,10 +22,4 @@ def is_digit(n):
         return True
     else:
         return False
-        
-    
-    
-
-
-
 ```
