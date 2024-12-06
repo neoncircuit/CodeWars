@@ -2,15 +2,13 @@
 
 ## Instructions
 
-**Wilson primes** satisfy the following condition. Let \( P \) represent a prime number.
+**Wilson primes** satisfy the following condition. Let *P* represent a prime number.
 
-Then,
+Then:
 
-\[
-\frac{(P - 1)! + 1}{P \times P}
-\]
+\[( (P - 1)! + 1 ) / ( P * P )\]
 
-should give a whole number, where \( P! \) is the factorial of \( P \).
+should give a whole number, where *P*! is the factorial of *P*.
 
 Your task is to create a function that returns `true` if the given number is a Wilson prime and `false` otherwise.
 
