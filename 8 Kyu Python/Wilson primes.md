@@ -6,7 +6,7 @@
 
 Then:
 
-\[( (P - 1)! + 1 ) / ( P * P )\]
+$$\frac{(P - 1)! + 1}{P * P}$$
 
 should give a whole number, where *P*! is the factorial of *P*.
 
