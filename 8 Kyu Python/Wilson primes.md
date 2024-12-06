@@ -2,15 +2,17 @@
 
 ## Instructions
 
-Wilson primes satisfy the following condition. Let P represent a prime number.
+**Wilson primes** satisfy the following condition. Let \( P \) represent a prime number.
 
 Then,
 
-$$\frac{(P - 1)! + 1}{P * P}$$
-​ 
-should give a whole number, where P! is the factorial of P.
+\[
+\frac{(P - 1)! + 1}{P \times P}
+\]
 
-Your task is to create a function that returns true if the given number is a Wilson prime and false otherwise.
+should give a whole number, where \( P! \) is the factorial of \( P \).
+
+Your task is to create a function that returns `true` if the given number is a Wilson prime and `false` otherwise.
 
 ## Given Code
 ```python
