@@ -4,7 +4,7 @@
 
 ## Backstory
 
-[!Alt text](https://pbs.twimg.com/media/BQRHvcFCQAABGH6.jpg)
+![Image](https://pbs.twimg.com/media/BQRHvcFCQAABGH6.jpg)
 
 As a treat, I'll let you read part of the script from a classic 'I'm Alan Partridge episode:
 
@@ -30,7 +30,8 @@ Your job is simple, if x squared is more than 1000, return It's `hotter than the
 ## Other katas in this series:
 
 [Alan Partridge I - Partridge Watch](https://www.codewars.com/kata/alan-partridge-i-partridge-watch)
-[Alan Partridge III - London](https://www.codewars.com/kata/alan-partridge-iii-london
+
+[Alan Partridge III - London](https://www.codewars.com/kata/alan-partridge-iii-london)
 
 
 ## Given Code
