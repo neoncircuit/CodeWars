@@ -1,0 +1,1 @@
+odds = lambda arr: list(filter(lambda x: x % 2 != 0, arr))
