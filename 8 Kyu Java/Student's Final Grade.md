@@ -34,17 +34,17 @@ This function should return a number (final grade). There are four types of fina
 *Use Comparison and Logical Operators.
 
 ## Given Code
-\`\`\`java
+```
 public class StudentFinalGrade{
     
     public static int finalGrade(int exam, int projects){
         return -1;
     }
 }
-\`\`\`
+```
 
 ## My Solution
-\`\`\`java
+```
 public class StudentFinalGrade{
     
     public static int finalGrade(int exam, int projects){
@@ -59,4 +59,4 @@ public class StudentFinalGrade{
         }
     }
 }
-\`\`\`
+```
