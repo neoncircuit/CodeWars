@@ -15,7 +15,7 @@ The name attribute is accessible in the class with `this.name`.
 Reference: Oracle docs
 
 ## Given Code
-\`\`\`java
+```
 public class Cat extends Animal {
   public Cat(String name) {
     super(name);
@@ -23,10 +23,10 @@ public class Cat extends Animal {
   
   // your code here
 }
-\`\`\`
+```
 
 ## My Solution
-\`\`\`java
+```
 public class Cat extends Animal {
   public Cat(String name) {
     super(name);
@@ -37,4 +37,4 @@ public class Cat extends Animal {
     return this.name + " meows.";
   }
 }
-\`\`\`
+```
