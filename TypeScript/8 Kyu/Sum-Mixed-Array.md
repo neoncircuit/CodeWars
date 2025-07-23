@@ -14,7 +14,7 @@ Return your answer as a number.
 
 ```typescript
 export function sumMix(x: any[]): number {
-
+  
 }
 ```
 
@@ -30,4 +30,4 @@ export function sumMix(x: any[]): number {
 }
 ```
 
-*Uploaded on 2025-07-23 15:11:35 using CodeWars GUI*
+*Uploaded on 2025-07-23 15:39:45 using CodeWars GUI*
